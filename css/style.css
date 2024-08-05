@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(99, 18, 206);
+    transform: translateY(-150%);
+    animation: anim 1s forwards;
+}
+
+@keyframes anim {
+    0% {transform: translateY(-150%);}
+    100% {transform: translateY(0);}
+}
+
+.hello_text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+}
+
+.hello {
+    padding-top: 260px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: 1s;
+    color: black;
+}
+
+.hello_by {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+.hello_by_pos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
